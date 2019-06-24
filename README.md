@@ -1,4 +1,4 @@
-# load_fave.R
+# fave_combine.R
 R script for loading a folder of files as exported by FAVE-extract and combining normalized and non-normalized data into a single dataframe and spreadsheet; assumes that filenames are based on speaker name or ID code
 
 1. After running FAVE-align and FAVE-extract (https://github.com/JoFrhwld/FAVE) save your formant data output files into a folder along with this script
