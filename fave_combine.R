@@ -15,7 +15,7 @@ if (length(FAVE_files)!=length(FAVE_norm_files)) {
 # erase any previous FAVE dataframes
 FAVE_data <- NULL
 
-# loop through and load each FAVE output file into dataframes
+# loop through and load each FAVE output file into a master dataframe
 for (d in 1:length(FAVE_files)) {
   
   # create speaker ID from filename
